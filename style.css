@@ -1,0 +1,73 @@
+body{
+        margin: 0;
+}
+
+.maindiv{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 900px;
+       background-color: beige;
+       
+       
+}
+
+.maincontainer{
+        width: 577px;
+        display: flex;
+        
+        
+}
+
+.imgcontainer{
+        width: 50%;
+        height: 100%;
+}
+
+ .img{
+       object-fit: contain;
+       width: 100%;
+       height: 100%;
+}
+.container2{
+
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: white;
+
+} 
+.container2 h1{
+   
+        line-height: 28px;
+        margin: 29px;
+        
+}
+.container2 p{
+
+        margin: 29px;
+}
+.firTag{
+
+        line-height: 27px;
+        color: grey;
+        font-size: 18px;
+}
+.secTag{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: forestgreen;
+        margin-left: 23px;
+}
+
+.Add_to_Cart{
+
+        background-color: green;
+        height: 40px;
+        width: 200px;
+        margin-left: 24px;
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        border: none;
+
+}
